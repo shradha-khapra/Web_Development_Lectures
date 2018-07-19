@@ -1,0 +1,37 @@
+#face{
+    position:absolute;
+    height:500px;
+    width:500px;
+    border:2px solid black;
+    border-radius:50%;
+    left:25%;
+}
+#eye1,#eye2{
+    position:absolute;
+    height:100px;
+    width:100px;
+    border:2px solid black;
+    border-radius:50%;
+    display:inline-block;
+    background-color: black;
+}
+#eye{
+    top:30%;
+    width:100%;
+}
+#eye1{
+   left:10%;
+
+}
+#eye2{
+    right:10%;
+}
+#lips{
+    top:60%;
+    border-bottom:2px solid red;
+    position:absolute;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+    left:40%;
+}

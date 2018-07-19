@@ -1,0 +1,37 @@
+h1{
+    font-family:"DejaVu Sans Mono";
+    color:sienna;
+    font-weight:bolder;
+}
+h2{
+    font-family:Purisa;
+    color:chocolate;
+}
+#a,.c{
+    text-align: center;
+    margin:0 auto;
+}
+body{
+    border: 2px solid black;
+}
+p{
+    font-family:Loma;
+}
+.c{
+    display:inline-block;
+    height:30ex;
+    /*ex:relative to height of font*/
+    width:25em;
+    /*em:relative to size of font*/
+
+}
+#b{
+    display:flex;
+    flex-wrap:wrap;
+}
+a{
+    color:chocolate;
+}
+a:hover{
+    color:green;
+}
