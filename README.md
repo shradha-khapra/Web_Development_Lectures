@@ -1,6 +1,6 @@
 # the-debugging-society
  representation of different and basic concepts of web-development 
-#####DESCRIPTION
+##### DESCRIPTION
 * lecture-2: Basic HTML code
 * lecture-3: Basic HTML code with CSS
 * lecture-4: HTML and CSS for a 'smilie' to display position-property
