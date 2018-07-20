@@ -1,0 +1,49 @@
+#outer {
+
+    width: 100px;
+    height: 100px;
+    margin:0 auto;
+    box-sizing:border-box;
+    position:relative;
+    display:flex;flex-wrap: wrap;
+    justify-content: center;
+    animation-name: out-ani;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:-2s;
+}
+#inner{
+    background-color: green;
+    border-radius:100%;
+    width:100px; height:100px;
+    box-sizing: border-box;
+    animation-name:in-ani;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    animation-direction:alternate;
+    animation-delay:-2s;
+}
+@keyframes out-ani{
+    25%{border-top: 2px solid green;
+
+    }
+    50%{
+        border-top: 2px solid green;
+        border-right: 2px solid green;
+    }
+    75%{
+        border-top: 2px solid green;
+        border-right: 2px solid green;
+        border-bottom: 2px solid green;
+    }
+    100%{
+        border: 2px solid green;
+        background-color:green;
+    }
+}
+@keyframes in-ani{
+    100%{
+        background-color:white;
+    }
+}

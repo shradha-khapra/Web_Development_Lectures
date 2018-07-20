@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>task1sir</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <style>
+        .bigbox{ margin:0 auto; width:800px;}
+        .box{ width:32%; height:200px; border:1px dashed red; display:inline-block;}
+        @media screen and (min-width: 800px) and (max-width: 900px){
+            .bigbox{ width:100%;}
+            .box{ width:49%;}
+        }
+        @media screen and (max-width: 800px){
+            .bigbox{ width:100%;}
+            .box{width:100%;}
+        }
+    </style>
+</head>
+<body>
+<div class="bigbox">
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+</div>
+</body>
+</html>
