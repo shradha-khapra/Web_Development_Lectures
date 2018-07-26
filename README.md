@@ -8,3 +8,4 @@
 * lecture-5-b: HTML and CSS to display responsiveness of web-page
 * lecture-6: JS variables,functions and IIFE
 * lecture-7: Accessing HTML elements in JS
+* lecture-8: Todo list(without local-storage)
