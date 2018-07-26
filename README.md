@@ -7,3 +7,4 @@
 * lecture-5: HTML and CSS to display animation-property
 * lecture-5-b: HTML and CSS to display responsiveness of web-page
 * lecture-6: JS variables,functions and IIFE
+* lecture-7: Accessing HTML elements in JS
